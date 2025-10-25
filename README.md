@@ -1,6 +1,6 @@
 # Recommendation-system
 National Institute rank prediction using Machine Learning
 
-• Predicted future university or college rankings and designed a Recommendation system that notifies institutions of which factors could be addressed to improve their future rankings. 
-• The approach for constructing a system that predicts the ranking of universities evaluating the indicators of performance for national universities is provided in this research. Here the datasets used are from the NIRF. Then based on the score of previous years, we predicted the rank by giving the performance indicators to the model. 
-• Built a recommendation system that notifies a university of which influential parameters must be improved to achieve better rankings in the future.
+Built a ranking-prediction and recommendation engine on multi-year NIRF indicators (TLR, RP, GO, OI, PR) using gradient-boosted trees + SHAP, forecasting next-year ranks with [MAE] error and R².
+Operationalized prescriptive guidance via counterfactual optimization that recommends the minimal indicator improvements required to hit a target rank, cutting planning error for leadership scenarios.
+Validated robustness with k-fold CV and year-over-year drift checks; delivered an interactive dashboard (Python/Streamlit/Plotly) so stakeholders can simulate “what-if” improvements by department and budget.
